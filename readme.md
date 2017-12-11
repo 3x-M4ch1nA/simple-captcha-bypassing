@@ -4,7 +4,7 @@
 Some new CAPTCHAs are only presenting two numbers and asking the user to enter their sum to check if that user is not a robot.<br/>
 However the two numbers are simply coded into the html code and therefore very easy to get by parsing the code with regular expressions<br/>
 
-The script presented here was used on a WordPress website where this kind of CAPTCHA was used in the usual "Contact us" form. Therefore the regex are very specific to this website (but can probably work with other WordPress websites).
+The script presented here is a *JMeter script* and was used on a WordPress website where this kind of CAPTCHA was used in the usual "Contact us" form. Therefore the regex are very specific to this website (but can probably work with other WordPress websites).
 
 ## Coding of the JMeter script
 ### Getting both numbers from the page
