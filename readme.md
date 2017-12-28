@@ -12,7 +12,7 @@ The JMeter script I made sends a first GET request to the website, parses the ht
 A simple regex can get the actual number: ```data\-second\_digit\=\"([0-9]{1,3})\"```.<br/>
 
 ### Sending the POST request
-Not that we have both numbers, let's move on to the POST request, whihc will send the message.<br/>
+Now that we have both numbers, let's move on to the POST request, which will send the message.<br/>
 For this request, we need the right headers and the right parameters: that's where studying the requests on a browser comes in.<br/>
 Once the headers and the parameters are ready, we add the sum of both numbers in the CAPTCHA field:```${__intSum(${firstDig},${secondDig})}```<br/>
 
@@ -25,4 +25,4 @@ Once everything is ready, the user can launch the script and look at the results
 
 ## Story
 As POC, I was able to send one message 10 times to one of my friends who has a website with that sort of CAPTCHA.<br/>
-It would be interesting to see if one can DoS a server that way...
+As I was testing my script, I accidently launched it a first time without specifying the number of messages I wanted to send so my script went on to send the same message over and over again, which DoS'ed the server..
