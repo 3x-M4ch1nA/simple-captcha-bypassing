@@ -26,3 +26,12 @@ Once everything is ready, the user can launch the script and look at the results
 ## Story
 As POC, I was able to send one message 10 times to one of my friends who has a website with that sort of CAPTCHA.<br/>
 As I was testing my script, I accidently launched it a first time without specifying the number of messages I wanted to send so my script went on to send the same message over and over again, which DoS'ed the server..
+
+## License
+Copyright (C) 2018 Jean-Baptiste DURVILLE
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a [copy](LICENCE.txt) of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.
